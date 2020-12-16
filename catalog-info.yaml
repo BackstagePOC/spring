@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Teste"
+  description: "Teste"
+  annotations:
+    github.com/project-slug: "BackstagePOC/spring"
+    backstage.io/techdocs-ref: github:https://github.com/BackstagePOC/spring
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "rafael2ll"
